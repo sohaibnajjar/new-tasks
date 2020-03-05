@@ -1,0 +1,99 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.all-things {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 700px;
+}
+
+.all-things button {
+  background-color: black;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin: 20px 15px 10px 15px;
+  border: none;
+}
+
+.all-things .starting-button {
+  border: 4px solid #536af0;
+  font-size: 1.1em;
+}
+
+.main-box {
+  background-color: #2aa8e2;
+  border-radius: 10%;
+  width: 20%;
+  height: 53%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 4px solid #536af0;
+}
+
+.main-box .image {
+  background-color: #adff2f;
+  width: 45%;
+  height: 40%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.main-box label {
+  font-weight: 600;
+  margin: 5px 0px;
+  margin-left: 20%;
+}
+
+.main-box input {
+  border: none;
+  border-radius: 5px;
+  background-color: #adff2f;
+  padding: 7px;
+  margin: auto;
+}
+
+.main-box .submit_button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

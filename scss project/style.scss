@@ -1,0 +1,69 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.all-things {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+  button {
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin: 20px 15px 10px 15px;
+    border: none;
+  }
+  .starting-button {
+    border: 4px solid rgb(83, 106, 240);
+    font-size: 1.1em;
+  }
+}
+.main-box {
+  background-color: rgb(42, 168, 226);
+  border-radius: 10%;
+  width: 20%;
+  height: 53%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 4px solid rgb(83, 106, 240);
+  .image {
+    background-color: #adff2f;
+    width: 45%;
+    height: 40%;
+    align-self: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  label {
+    font-weight: 600;
+    margin: 5px 0px;
+    margin-left: 20%;
+  }
+  input {
+    border: none;
+    border-radius: 5px;
+    background-color: #adff2f;
+    padding: 7px;
+    margin: auto;
+  }
+  .submit_button {
+    align-self: center;
+  }
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
